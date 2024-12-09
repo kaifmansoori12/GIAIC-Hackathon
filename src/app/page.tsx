@@ -100,7 +100,7 @@ export default function Home() {
           <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
             <CardHeader>
               <CardTitle className="w-full flex items-center justify-between">
-                NissanGT - R <Image src={"/heart 2.png"} alt="" width={20} height={20} />
+                NisanGT - R <Image src={"/heart 2.png"} alt="" width={20} height={20} />
               </CardTitle>
               <CardDescription>Sport</CardDescription>
             </CardHeader>
@@ -110,7 +110,7 @@ export default function Home() {
             </CardContent>
             <CardFooter className="w-full flex items-center justify-between">
               <p>
-                $99.00/<span className="text-gray-500">day</span>
+                $199.00/<span className="text-gray-500">day</span>
               </p>
               <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
             </CardFooter>
@@ -126,7 +126,7 @@ export default function Home() {
           <Card className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
             <CardHeader>
               <CardTitle className="w-full flex items-center justify-between">
-                All New Rush <Image src={"/heart.png"} alt="" width={20} height={20} />
+              New Rush <Image src={"/heart.png"} alt="" width={20} height={20} />
               </CardTitle>
               <CardDescription>SUV</CardDescription>
             </CardHeader>

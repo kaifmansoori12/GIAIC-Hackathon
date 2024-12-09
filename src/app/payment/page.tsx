@@ -19,7 +19,7 @@ export default function Page() {
           <CardHeader>
             <CardTitle>Billing Info</CardTitle>
             <CardDescription className="w-full flex items-center justify-between">
-              <h1>Please enter your billing info</h1>
+              <h1>Please enter your billing information</h1>
               <h1>Step 1 of 4</h1>
             </CardDescription>
           </CardHeader>
@@ -52,7 +52,7 @@ export default function Page() {
           <CardHeader>
             <CardTitle>Rental Info</CardTitle>
             <CardDescription className="w-full flex items-center justify-between">
-              <h1>Please select your rental date</h1>
+              <h1> Select your rental date</h1>
               <h1>Step 2 of 4</h1>
             </CardDescription>
           </CardHeader>
@@ -115,7 +115,7 @@ export default function Page() {
           <CardHeader>
             <CardTitle>Payment Method</CardTitle>
             <CardDescription className="w-full flex items-center justify-between">
-              <h1>Please enter your payment method</h1>
+              <h1>Enter your payment method</h1>
               <h1>Step 3 of 4</h1>
             </CardDescription>
           </CardHeader>
@@ -129,9 +129,9 @@ export default function Page() {
       
         <Card className="w-full lg:w-[852px] h-auto lg:h-[484px] flex flex-col justify-around">
           <CardHeader>
-            <CardTitle>Confirmation</CardTitle>
+            <CardTitle>Confirming</CardTitle>
             <CardDescription className="w-full flex items-center justify-between">
-              <h1>We are getting to the end. Just a few clicks and your rental is ready</h1>
+              <h1>We are getting to the end. Just a few clicks and your rental product is ready</h1>
               <h1>Step 4 of 4</h1>
             </CardDescription>
           </CardHeader>
@@ -139,7 +139,7 @@ export default function Page() {
             <Image src={"/Confirmation.png"} alt="Confirmation" width={804} height={136} />
             <Link href={'/admin'}>
             <button className="bg-[#3563e9] p-2 text-white rounded-xl w-[140px] h-[56px]">
-              Rent Now
+              Rent it now
             </button></Link>
             
             <Image src={"/Safe Data.png"} alt="Safe Data" width={548} height={100} />
